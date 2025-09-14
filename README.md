@@ -14,21 +14,35 @@
 
 ## 📦 安装
 
-### NPM
-```bash
-npm install svg-smart-colorizer
-```
-
-### CDN
-```html
-<script src="https://cdn.jsdelivr.net/npm/svg-smart-colorizer@latest/dist/svg-smart-colorizer.min.js"></script>
-```
-
 ### 直接下载
-下载 `dist/svg-smart-colorizer.min.js` 文件并在HTML中引入：
-```html
-<script src="path/to/svg-smart-colorizer.min.js"></script>
+从GitHub仓库下载源码：
+```bash
+git clone https://github.com/xiaolongmr/svg-smart-colorizer.git
+cd svg-smart-colorizer
 ```
+
+### CDN引入（开发中）
+```html
+<!-- 从GitHub直接引用 -->
+<script src="https://cdn.jsdelivr.net/gh/xiaolongmr/svg-smart-colorizer@main/src/index.js"></script>
+```
+
+### 本地构建
+```bash
+# 安装依赖
+npm install
+
+# 构建项目
+npm run build
+
+# 在HTML中引入构建后的文件
+<script src="dist/svg-smart-colorizer.min.js"></script>
+```
+
+### 在线预览
+🌐 **在线演示**：[https://xiaolongmr.github.io/svg-smart-colorizer/](https://xiaolongmr.github.io/svg-smart-colorizer/)
+
+> 注意：NPM包正在准备中，敬请期待！
 
 ## 🚀 快速开始
 
